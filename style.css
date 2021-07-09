@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    list-style: none;
+}
+#logo-img{
+    width: 50px;
+    height: 40px;
+}
+.search{
+    margin-left: 40px;
+    width: 550px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+.btn{
+    position: absolute;
+    right: 250px;
+}
+.fa-search{
+    opacity: 0.5;
+}
+.cart-icon{
+    color: black;
+    text-decoration: none;
+    color: rgba(0,0,0,.55);
+    margin-right: 129px;
+}
+.fa-shopping-cart{
+    background-color: white;
+}
+sup{
+    background-color:teal;
+    color: white;
+    border-radius: 100%;
+    padding: 1px 6px; 
+}
+.cart-icon:hover{
+    color: black;
+}
+.section{
+    margin-top: 50px;
+    display: flex;
+    visibility: visible;
+}
+aside{
+    padding: 10px 20px;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.combo{
+    font-weight: bold;
+}
+.three{
+    color:teal;
+    text-transform: capitalize;
+    font-size: 0.9rem;
+}
+.first{
+    margin-top: 40px;
+    padding: 10px 0px;
+    background-color: #e6e6e6;
+    font-size: 0.7rem;
+    color: black;
+}
+aside p{
+    font-size: 0.8rem;
+}
+.ierror{
+    margin-left: 10px;
+    border: 1px solid teal;
+    border-radius: 62%;
+    padding: 0px 2px;
+
+}
+.range{
+    margin-top: 40px;
+    position: relative;
+}
+.range #three{
+    position: absolute;
+    bottom: 30px;
+}
+.range #six{
+    position: absolute;
+    bottom: 30px;
+    right: 130px;
+}
+.range #twe{
+    position: absolute;
+    bottom: 30px;
+    right: 5px;
+}
+.box{
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+}
+.col{
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px 22px;
+}
+.col h5{
+    font-size: 1rem;
+}
+.col h6{
+    font-size: 0.8rem;
+}
+.col p{
+    font-size: 0.6rem;
+}
+.col .ierro{
+    margin-left: 2  px;
+    border: 1px solid teal;
+    border-radius: 62%;
+    padding: 0px 2px;
+}
+.row{
+    display:flex;
+    flex-direction: row;
+    border: 1px solid black;
+    position: absolute;
+    bottom: 85px;
+    padding: 5px 0px;
+    right: 58px;
+    width: 250px;
+    padding: 10px 0px;
+}
+.row h6{
+    font-size: 0.7rem;
+}
+.deliver{
+    margin-top: 70px;
+}
+.deliver h6{
+    font-size: 0.9rem;
+}
+.fa-truck{
+    margin-right: 10px;
+}
+.jul{
+    font-weight: bold;
+}
+#plan{
+    background-color: red;
+    text-align: center;
+    border: none;
+    color: white;
+    width: 300px;
+    padding: 10px 10px;
+}
+.rido-btn{
+    position: absolute;
+    left: 987px;
+    bottom: 15px;
+    border: 1px solid grey;
+}
+.rido-btn span{
+    margin-right: 4px;
+    background-color: teal;
+    color: white;
+    border-radius: 100%;
+    padding: 0px 5px;
+}
